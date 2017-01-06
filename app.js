@@ -11,7 +11,6 @@ $(document).ready(function(){
 
     boutons.click(function(){
         couleurforbackgrd = ($(this).data("color"));
-        console.log(couleurforbackgrd);
         $("body").css("background", couleurforbackgrd);
         });
         
